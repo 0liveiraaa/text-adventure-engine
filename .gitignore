@@ -1,0 +1,36 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local environment and editor files
+.env
+.env.*
+config/config.local.yaml
+config/*.local.yaml
+.vscode/
+.idea/
+
+# Streamlit and local temp files
+.streamlit/
+
+# Runtime data and logs
+*.sqlite3
+world/*.sqlite3
+world/log/
+log/
+*.log
+*.jsonl
+
+# Documentation policy for GitHub upload
+docs/*
+!docs/spec/
+docs/spec/*
+!docs/spec/**
+
+# Keep the public spec documents tracked, but ignore all other docs content.
